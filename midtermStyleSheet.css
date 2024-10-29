@@ -21,11 +21,12 @@
     text-align: center; 
     justify-content: center;
     background-position: center;
-    background-image: url('Images/SadElephant2.jpg'); 
-    margin-top: 50px;
+    background-image: url('SadDog6.jpg'); 
+    margin-top: 150px;
     background-repeat: no-repeat;
-    color: #000;
-    height: 512px;
+    color: #fff;
+    height: 500px;
+    flex-direction: column;
 }
 
 .footer {
@@ -63,6 +64,17 @@
     justify-content: flex-end;
 }
 
+.motto {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -125%);    
+}
+
 .copyright-container {
     display: flex;
     justify-content: flex-end;
@@ -75,12 +87,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     gap: 20px; /* Space between the divs */
-    padding: 20px;
 }
 
 
 .sub-content-div {
-    padding: 20px;
+    padding: 10px;
     background-color: #f0f0f0;
     text-align: center;
     border-radius: 10px;
