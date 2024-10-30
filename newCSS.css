@@ -100,8 +100,15 @@ div.footer {
 }
 
 div.footer .logo {
-        position: absolute;
+        /* position: absolute; */
         left: 10px;
+}
+
+div.footer .icon {
+        position: relative;
+        height: 50px;
+        border-radius: 75%;
+        object-fit: cover;
 }
 
 div.footer img {
