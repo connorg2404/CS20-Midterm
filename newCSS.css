@@ -86,7 +86,7 @@ section {
         margin-top: 20px;
         padding: 50px;
         color:rgb(255, 255, 255);
-        background-color: rgba(0, 0, 0, 0.12);
+        background-color: rgba(0, 0, 0, 0.100);
         flex-grow: 1;
 }
 
@@ -95,7 +95,7 @@ div.footer {
         width: 100%;
         padding-top: 1px;
         z-index: 1000;
-        background-color: rgb(50, 129, 232);
+        background-color: rgb(27, 94, 182);
         height: 100px;
 }
 
@@ -109,7 +109,7 @@ div.footer img {
 }
 
 div.footer a {
-        color: rgb(50, 129, 232);
+        color: rgb(27, 94, 182);
         text-decoration: none;
         padding: 10px 20px;
         font-size: 50px;
