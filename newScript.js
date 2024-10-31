@@ -26,4 +26,29 @@ const donateContent = "We rely on the generosity of individuals like you to cont
 createSection("whatWeDo", "What We Do", whatWeDoContent);
 createSection("howToHelp", "How to Help", howToHelpContent);
 createSection("donate", "Donate", donateContent);
+
+function validateForm() {
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const amount = document.getElementById("amount").value.trim();
+
+        if (name === "") {
+                alert("Please enter your full name.");
+                return false;
+        }
+
+        const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        if (!emailPattern.test(email)) {
+                alert("Please enter a valid email address.");
+                return false;
+        }
+
+        if (isNaN(amount) || amount <= 0) {
+                alert("Please enter a valid donation amount.");
+                return false;
+        }
+
+        alert("Thank you for your donation!");
+        return true;
+}
     

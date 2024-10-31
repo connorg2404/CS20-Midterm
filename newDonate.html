@@ -23,18 +23,32 @@
                 <h1 style="color: rgb(255, 255, 255); text-align: center; font-size: 80px; font-family: 'Times New Roman', Times, serif; margin-top: 120px;">Medford Animal Shelter</h1>
         </a>
 
-        <div class="background">
-                <h2 style="font-size: 50px;">Do your part today!</h2>
-                <a href="adopt.html">
-                        <input class="navButton" type="button" value="ADOPT">
-                </a>
-        </div>
-
-        <script src="newScript.js"></script>
+        <main>
+                <section class="donate-section">
+                        <h2>Donate to Medford Animal Shelter</h2>
+                        <p>Your support helps us care for animals in need. Thank you for your generosity!</p>
+                        
+                        <form id="donateForm" onsubmit="return validateForm()">
+                                <label for="name">Full Name:</label>
+                                <input type="text" id="name" name="name" required>
+                
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                
+                                <label for="amount">Donation Amount ($):</label>
+                                <input type="number" id="amount" name="amount" min="1" required>
+                
+                                <label for="message">Message (optional):</label>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                
+                                <button type="submit">Donate</button>
+                        </form>
+                </section>
+        </main>
 
         <div class="footer">
                 <a href="newMain.html" class="logo">
-                        <img src="Images/Borcelle.jpg" alt="Medford Animal Shelter Logo" />
+                        <img src="Images/Borcelle.jpg" alt="Medford Animal Shelter Logo"/>
                 </a>
 
                 <a href="https://www.instagram.com/" class="icon" target="_blank">
@@ -52,5 +66,6 @@
                 <p style="color: white; font-size: 20px; text-align: center; padding-top: 20px;">Rescue, Love, Repeat</p>
                 <p style="color: white; font-size: 18px; text-align: right; padding-right: 5px; padding-bottom: 10px;">© Medford Animal Shelter 2024</p>
         </div>
+
 </body>
 </html>
