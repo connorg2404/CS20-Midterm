@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animals>
+        <animal>
+                <name>Bella</name>
+                <description>Friendly and playful, loves belly rubs and chasing toys.</description>
+                <breed>Labrador Retriever</breed>
+                <species>dog</species>
+        </animal>
+        <animal>
+                <name>Mittens</name>
+                <description>Independent yet affectionate, enjoys lounging in sunbeams.</description>
+                <breed>Domestic Shorthair</breed>
+                <species>cat</species>
+        </animal>
+        <animal>
+                <name>Buddy</name>
+                <description>Energetic and loyal, perfect for an active family.</description>
+                <breed>Golden Retriever</breed>
+                <species>dog</species>
+        </animal>
+        <animal>
+                <name>Polly</name>
+                <description>Charming and chatty, loves to mimic sounds and play with toys.</description>
+                <breed>African Grey</breed>
+                <species>bird</species>
+        </animal>
+        <animal>
+                <name>Whiskers</name>
+                <description>Calm and curious, great with children and other pets.</description>
+                <breed>Maine Coon</breed>
+                <species>cat</species>
+        </animal>
+        <animal>
+                <name>Spike</name>
+                <description>Shy but loyal, opens up once comfortable with surroundings.</description>
+                <breed>Bearded Dragon</breed>
+                <species>reptile</species>
+        </animal>
+        <animal>
+                <name>Rex</name>
+                <description>Gentle giant, loves treats and belly rubs. Needs a lot of space!</description>
+                <breed>Great Dane</breed>
+                <species>dog</species>
+        </animal>
+        <animal>
+                <name>Luna</name>
+                <description>Curious and active, loves climbing and exploring her surroundings.</description>
+                <breed>Siberian</breed>
+                <species>cat</species>
+        </animal>
+</animals>

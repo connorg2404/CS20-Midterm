@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Medford Animal Shelter</title>
+        <link rel="stylesheet" type="text/css" href="newCSS.css">
+        <link rel="icon" href="Images/Borcelle.jpg" type="image/jpg">
+</head>
+
+<body>
+        <div class="nav">
+                <a href="newMain.html" class="logo">
+                        <img src="Images/Borcelle.jpg" alt="Medford Animal Shelter Logo" />
+                </a>
+                <a href="newMain.html">Home</a>
+                <a href="adopt.html">ADOPT</a>
+                <a href="whatwedo.html">What We Do</a>
+                <a href="newDonate.html">Donate</a>
+                <a href="contact.html">Contact</a>
+        </div>
+        
+        <div class="animal-container" id="animal-container"></div>
+        <script>
+                const animals = [
+                {
+                        name: "Bella",
+                        description: "Friendly and playful, loves belly rubs and chasing toys.",
+                        breed: "Labrador Retriever",
+                        species: "dog"
+                },
+                {
+                        name: "Mittens",
+                        description: "Independent yet affectionate, enjoys lounging in sunbeams.",
+                        breed: "Domestic Shorthair",
+                        species: "cat"
+                },
+                {
+                        name: "Buddy",
+                        description: "Energetic and loyal, perfect for an active family.",
+                        breed: "Golden Retriever",
+                        species: "dog"
+                },
+                {
+                        name: "Polly",
+                        description: "Charming and chatty, loves to mimic sounds and play with toys.",
+                        breed: "African Grey",
+                        species: "bird"
+                },
+                {
+                        name: "Whiskers",
+                        description: "Calm and curious, great with children and other pets.",
+                        breed: "Maine Coon",
+                        species: "cat"
+                },
+                {
+                        name: "Spike",
+                        description: "Shy but loyal, opens up once comfortable with surroundings.",
+                        breed: "Bearded Dragon",
+                        species: "reptile"
+                },
+                {
+                        name: "Rex",
+                        description: "Gentle giant, loves treats and belly rubs. Needs a lot of space!",
+                        breed: "Great Dane",
+                        species: "dog"
+                },
+                {
+                        name: "Luna",
+                        description: "Curious and active, loves climbing and exploring her surroundings.",
+                        breed: "Siberian",
+                        species: "cat"
+                }
+                ];
+
+                const container = document.getElementById('animal-container');
+                        animals.forEach(animal => {
+                        const animalCard = document.createElement('div');
+                        animalCard.classList.add('animal-card');
+
+                        animalCard.innerHTML = `
+                                <h2>${animal.name}</h2>
+                                <p class="description">${animal.description}</p>
+                                <p class="breed"><strong>Breed:</strong> ${animal.breed}</p>
+                                <p class="species"><strong>Species:</strong> ${animal.species}</p>
+                        `;
+                        container.appendChild(animalCard);
+                });
+        </script>
+
+        <div class="footer">
+                <a href="newMain.html" class="logo">
+                        <img src="Images/Borcelle.jpg" alt="Medford Animal Shelter Logo" />
+                </a>
+
+                <a href="https://www.instagram.com/" class="icon" target="_blank">
+                        <img src="Images/IGImage.jpg" alt="Instagram Icon"/>
+                </a>
+
+                <a href="https://www.facebook.com/" class="icon" target="_blank">
+                        <img src="Images/FBImage.jpg" alt="Facebook Icon"/>
+                </a>
+
+                <a href="https://www.x.com/" class="icon" target="_blank">
+                        <img src="Images/XImage.jpg" alt="X Icon"/>
+                </a>
+
+                <p style="color: white; font-size: 20px; text-align: center; padding-top: 20px;">Rescue, Love, Repeat</p>
+                <p style="color: white; font-size: 18px; text-align: right; padding-right: 5px; padding-bottom: 10px;">© Medford Animal Shelter 2024</p>
+        </div>
+</body>
+</html>
