@@ -48,4 +48,46 @@
                 <breed>Siberian</breed>
                 <species>cat</species>
         </animal>
+                <animal>
+                <name>Coco</name>
+                <description>Playful and energetic, loves fetch and long walks.</description>
+                <breed>French Bulldog</breed>
+                <species>dog</species>
+                </animal>
+        <animal>
+                <name>Oliver</name>
+                <description>Affectionate and calm, loves to cuddle and play.</description>
+                <breed>Ragdoll</breed>
+                <species>cat</species>
+        </animal>
+        <animal>
+                <name>Max</name>
+                <description>Friendly and sociable, enjoys being around people and other pets.</description>
+                <breed>Beagle</breed>
+                <species>dog</species>
+        </animal>
+        <animal>
+                <name>Daisy</name>
+                <description>Lively and fun, loves to explore and go on adventures.</description>
+                <breed>Cocker Spaniel</breed>
+                <species>dog</species>
+        </animal>
+        <animal>
+                <name>Nemo</name>
+                <description>Colorful and friendly, enjoys swimming and exploring his tank.</description>
+                <breed>Clownfish</breed>
+                <species>fish</species>
+        </animal>
+        <animal>
+                <name>Gizmo</name>
+                <description>Curious and intelligent, loves to solve puzzles and play games.</description>
+                <breed>Guinea Pig</breed>
+                <species>small mammal</species>
+        </animal>
+        <animal>
+                <name>Zara</name>
+                <description>Elegant and graceful, loves to be pampered and enjoy the sun.</description>
+                <breed>Persian</breed>
+                <species>cat</species>
+        </animal>
 </animals>
