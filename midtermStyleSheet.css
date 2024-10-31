@@ -11,9 +11,9 @@ main {
 .about-main {
     max-width: 1200px;
     margin: auto;
-    padding: 40px;
+    padding: 120px 40px 40px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
     gap: 30px;
 }
 
@@ -128,8 +128,9 @@ main {
     font-family: Arial, sans-serif;
 }
 
-.donate-section h1 {
+.page {
     color: #3b82c4;
+    text-align: center;
 }
 
 .mission-section {
@@ -141,13 +142,32 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-.mission-section, .services-section, .volunteer-section, .donations-section {
+.mission-section {
+    text-align: center;
     margin: 20px;
     padding: 20px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.services-section, .donations-section {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+}
+
+volunteer-section {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-self: flex-end;
 }
 
 ul {
