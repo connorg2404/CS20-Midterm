@@ -100,12 +100,14 @@ section {
 
 div.footer {
         position: bottom;
+        display: flex;
         width: 100%;
-        padding-top: 1px;
+        padding-top: 20px;
         z-index: 1000;
         background-color: rgb(27, 94, 182);
         height: 50px;
-        padding-top: 20px;
+        align-items: center;
+        justify-content: space-between;
 }
 
 div.footer .logo {
